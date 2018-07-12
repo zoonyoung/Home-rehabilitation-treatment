@@ -132,5 +132,8 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
 2. Scrutinizing that data we collected, We could discern degree of stroke or other diseases related to 
 hand paralysis or numbness. 
 
-3. And then we can make ecosystem between patients society and medical society that they can feedback
+3. Now, In this stage, IoT technology will transfer not only our raw data but also analysis of data to the
+medical society.  
+
+4. And then we can make ecosystem between patients society and medical society that they can feedback
 more precisely and promptly.

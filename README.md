@@ -32,24 +32,24 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
 3. Provide low cost services.
 
 ## Contents
-### 1. __dice game__ #### [demo(video)](https://youtu.be/E8Xhtr497l8)
+### 1. __dice game__ [demo(video)](https://youtu.be/E8Xhtr497l8)
   + We used picamera and opencv(module in python) to recognize the dice.
   + This game is rolling dice game.
   + If you win the game, you can read good words.
 
-### 2. __hand gesture game__ #### [demo(video)](https://youtu.be/IvRqTmsWWxw)
+### 2. __hand gesture game__ [demo(video)](https://youtu.be/IvRqTmsWWxw)
   + We used picamera and opencv(module in python) to recognize the hand.
   + This game is counting iteration. (finger concentration or stretching)
  
-### 3. __pick up color card game__ #### [demo(video)](https://youtu.be/Pj2LsNEUcCA)
+### 3. __pick up color card game__ [demo(video)](https://youtu.be/Pj2LsNEUcCA)
   + We used picamera and opencv(module in python) to recognize the color card.
   + This game is played by picking up color cards that computer shows. 
 
-### 4. __mole game__ #### [demo(video)](https://youtu.be/GB_V4lXnMM8)
+### 4. __mole game__ [demo(video)](https://youtu.be/GB_V4lXnMM8)
   + We used tact switch and pygame(module in python)
   + This game is catching mole randomly coming out on the computer screen.
 
-### 5. __maze game__ #### [demo(video)](https://youtu.be/EF00FUXciWk)
+### 5. __maze game__ [demo(video)](https://youtu.be/EF00FUXciWk)
   + We used tact switch and pygame(module in python)
   + This game is solving complicated maze.
 ***
@@ -133,4 +133,4 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
 hand paralysis or numbness. 
 
 3. And then we can make ecosystem between patients society and medical society that they can feedback
-more precisely and urgently.
+more precisely and promptly.

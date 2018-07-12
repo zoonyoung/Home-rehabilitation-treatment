@@ -3,7 +3,7 @@ We are participating in [EDISON2018](https://github.com/ys7yoo/Edison2018) proje
 home rehabilitation treatment device using raspberry pi  
 
 ## Project description 
-&nbsp;&nbsp;&nbsp;&nbsp;It is a rehabilitation device for people with paralyzed hands.  
+It is a rehabilitation device for people with paralyzed hands.  
 We provide some games(using video recognition and tact) and patients __can rehabilitate through games__
 
 ## Team Grape!
@@ -32,30 +32,31 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
 3. Provide low cost services.
 
 ## Contents
-### 1. __dice game__ [demo(video)](https://youtu.be/E8Xhtr497l8)
+### 1. __dice game__ #### [demo(video)](https://youtu.be/E8Xhtr497l8)
   + We used picamera and opencv(module in python) to recognize the dice.
   + This game is rolling dice game.
   + If you win the game, you can read good words.
 
-### 2. __hand gesture game__ [demo(video)](https://youtu.be/IvRqTmsWWxw)
+### 2. __hand gesture game__ #### [demo(video)](https://youtu.be/IvRqTmsWWxw)
   + We used picamera and opencv(module in python) to recognize the hand.
   + This game is counting iteration. (finger concentration or stretching)
  
-### 3. __pick up color card game__ [demo(video)](https://youtu.be/Pj2LsNEUcCA)
+### 3. __pick up color card game__ #### [demo(video)](https://youtu.be/Pj2LsNEUcCA)
   + We used picamera and opencv(module in python) to recognize the color card.
   + This game is played by picking up color cards that computer shows. 
 
-### 4. __mole game__ [demo(video)](https://youtu.be/GB_V4lXnMM8)
+### 4. __mole game__ #### [demo(video)](https://youtu.be/GB_V4lXnMM8)
   + We used tact switch and pygame(module in python)
   + This game is catching mole randomly coming out on the computer screen.
 
-### 5. __maze game__ [demo(video)](https://youtu.be/EF00FUXciWk)
+### 5. __maze game__ #### [demo(video)](https://youtu.be/EF00FUXciWk)
   + We used tact switch and pygame(module in python)
   + This game is solving complicated maze.
 ***
 
 
 # We used these..
+![Alt text](./images/using.png)
 1. raspberry pi3
 2. pi camera
 3. TACT switch
@@ -103,7 +104,7 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
   ```bash
   pi@raspberrypi:~ $ pkg-config --modversion opencv
   ```
-  &nbsp;&nbsp;&nbsp;&nbsp;if you look at 3.4.0, it is success!
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if you look at 3.4.0, it is success!
 
 
 6. __Setting picamera__  
@@ -112,7 +113,7 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
   pi@raspberrypi:~ $ sudo modprobe bcm2835-v4l2
   ```
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Checking device
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Checking device
   ```bash
   pi@raspberrypi:~ $ ls /dev/video*
   ```
@@ -122,6 +123,14 @@ We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)
   python3, pygame are installed with the RASPBIAN installation.
   turtle is internal function of python3
   _if there is anything else you need Please install_
+***
+
 
 ## Future development plan
+1. We can get data from patients how much time they took to finish up the each game.  
 
+2. Scrutinizing that data we collected, We could discern degree of stroke or other diseases related to 
+hand paralysis or numbness. 
+
+3. And then we can make ecosystem between patients society and medical society that they can feedback
+more precisely and urgently.

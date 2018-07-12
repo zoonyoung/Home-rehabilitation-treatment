@@ -1,25 +1,25 @@
 # Home-rehabilitation-treatmen(by Grape!)
-&nbsp;&nbsp;&nbsp;&nbsp;We are participating in [EDISON2018](https://github.com/ys7yoo/Edison2018) project  
-&nbsp;&nbsp;&nbsp;&nbsp;__home rehabilitation treatment device using raspberry pi__  
+We are participating in [EDISON2018](https://github.com/ys7yoo/Edison2018) project  
+home rehabilitation treatment device using raspberry pi  
 
-## Project description [Video(demo)](http://naver.com)
+## Project description 
 &nbsp;&nbsp;&nbsp;&nbsp;It is a rehabilitation device for people with paralyzed hands.  
-&nbsp;&nbsp;&nbsp;&nbsp;We provide some games(using video recognition and tact) and patients __can rehabilitate through games__
+We provide some games(using video recognition and tact) and patients __can rehabilitate through games__
 
 ## Team Grape!
 + Our team name is Grape!
-+ We're studying Electronic Engineering, University of Incheon.
++ We're studying Electronic Engineering, Incheon National University.
 + Team members
   - __Park jun young__: 3rd grade (9851248@gmail.com)
-  - __Lee jong gil__: 2nd grade (parisinus04@hotmail.com)
+  - __Lee jong gill__: 2nd grade (parisinus04@hotmail.com)
   - __Shin na ra__: 1st grade (naracon03@naver.com)
 ***
 
 
 # Project plan
-Project period: _2018. 07. 03. ~ 2018. 07. 12._  
+Project period: _2018. 07. 03. \~ 2018. 07. 12._  
 We found problem, found problem solution, and developed some games.  
-We had meetings every day over lunch(12:00\~13:00) and dinner(18:00\~19:00)  
+We had meetings every day during lunch(12:00\~13:00) and dinner(18:00\~19:00)  
 ## Problems
 1. Increase in stroke patients.
 2. Shortage of rehabilitation hospitals.
@@ -27,31 +27,31 @@ We had meetings every day over lunch(12:00\~13:00) and dinner(18:00\~19:00)
 4. Without rehabilitation, paralysis gets worse.
 
 ## Solutions
-1. Provide services to rehabilitate at home.
-2. Have fun access through games.
+1. Provide patients with rehabilitation treatment.
+2. Have fun with games.
 3. Provide low cost services.
 
 ## Contents
-### 1. __dice game__
-  + we used picamera and opencv(module in python) to recognize the dice.
-  + this game is rolling dice game.
-  + if you win the game, you can read good words.
+### 1. __dice game__ [demo(video)](https://youtu.be/E8Xhtr497l8)
+  + We used picamera and opencv(module in python) to recognize the dice.
+  + This game is rolling dice game.
+  + If you win the game, you can read good words.
 
-### 2. __hand gesture game__
-  + we used picamera and opencv(module in python) to recognize the hand.
-  + this game is counting iteration. (finger concentration or stretching)
+### 2. __hand gesture game__ [demo(video)](https://youtu.be/IvRqTmsWWxw)
+  + We used picamera and opencv(module in python) to recognize the hand.
+  + This game is counting iteration. (finger concentration or stretching)
  
-### 3. __pick up color card game__
-  + we used picamera and opencv(module in python) to recognize the color card.
-  + this game is what you pick up color cards taht computer shows. 
+### 3. __pick up color card game__ [demo(video)](https://youtu.be/Pj2LsNEUcCA)
+  + We used picamera and opencv(module in python) to recognize the color card.
+  + This game is played by picking up color cards that computer shows. 
 
-### 4. __mole game__
-  + we used tact switch and pygame(module in python)
-  + this game is catching that mole computer shows.
+### 4. __mole game__ [demo(video)](https://youtu.be/GB_V4lXnMM8)
+  + We used tact switch and pygame(module in python)
+  + This game is catching mole randomly coming out on the computer screen.
 
-### 5. __maze game__
-  + we used tact switch and pygame(module in python)
-  + this game is solving complicated maze.
+### 5. __maze game__ [demo(video)](https://youtu.be/EF00FUXciWk)
+  + We used tact switch and pygame(module in python)
+  + This game is solving complicated maze.
 ***
 
 
@@ -68,7 +68,7 @@ We had meetings every day over lunch(12:00\~13:00) and dinner(18:00\~19:00)
 
 ## Installation of dependencies
 1. __install RASPBIAN__   
-  We used [RASPBIAN](https://www.raspberrypi.org/downloads/raspbian/) : Release: 2018.06.27
+  We used [RASPBIAN](https://www.raspberrypi.org/downloads/raspbian/) : Release date: 2018.06.27
 
 
 2. __apt-get update__  
@@ -103,11 +103,11 @@ We had meetings every day over lunch(12:00\~13:00) and dinner(18:00\~19:00)
   ```bash
   pi@raspberrypi:~ $ pkg-config --modversion opencv
   ```
-  &nbsp;&nbsp;&nbsp;&nbsp;if you look at 3.4.0, it is a sucess!
+  &nbsp;&nbsp;&nbsp;&nbsp;if you look at 3.4.0, it is success!
 
 
 6. __Setting picamera__  
-  pi camera is not USB type, so you must set it to recgnize it as a device.
+  pi camera is not USB type, so you should set it to recgnize it as a device.
   ```bash
   pi@raspberrypi:~ $ sudo modprobe bcm2835-v4l2
   ```
@@ -122,4 +122,6 @@ We had meetings every day over lunch(12:00\~13:00) and dinner(18:00\~19:00)
   python3, pygame are installed with the RASPBIAN installation.
   turtle is internal function of python3
   _if there is anything else you need Please install_
+
+## Future development plan
 

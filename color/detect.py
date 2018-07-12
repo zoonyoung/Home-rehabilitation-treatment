@@ -7,10 +7,11 @@ import numpy as np
 
 #setting
 font = cv2.FONT_HERSHEY_SIMPLEX
-lower = {'red':(166, 84, 141), 'green':(66, 122, 0), 'blue':(97, 100, 117), 'yellow':(23, 59, 119)} #assign new item lower['blue'] = (93, 10, 0)
+lower = {'red':(166, 84, 141), 'green':(30, 100, 30), 'blue':(97, 100, 117), 'yellow':(23, 59, 119)} #assign new item lower['blue'] = (93, 10, 0)
 upper = {'red':(186,255,255), 'green':(86,255,255), 'blue':(117,255,255), 'yellow':(54,255,255)}
 colors = {'red':(0,0,255), 'green':(0,255,0), 'blue':(255,0,0), 'yellow':(0, 255, 217)}
 color = ['red','green','blue','yellow']
+color1 = [(0,0,255), (0,255,0), (255,0,0), (0, 255, 217)]
 
 def detect(a,hsv,frame,randNum,count):
 #Set mask
@@ -32,7 +33,7 @@ def detect(a,hsv,frame,randNum,count):
         if radius > 0.5:
             cv2.rectangle(frame, (int(x-radius), int(y-radius)), (int(x+radius), int(y+radius)), colors[a], 2)
             cv2.putText(frame,a + "card", (int(x-radius),int(y-radius)),font , 0.6,colors[a],2)
-    cv2.putText(frame,"pick up {} card".format(color[randNum]), (50,450),font, 1,(0,0,0),2)
+    cv2.putText(frame,"pick up {} card".format(color[randNum]), (50,450),font, 1,color1[randNum],2)
     if len(cnts)>0 and radius>0.5:
         count+=1
     return count

@@ -6,13 +6,11 @@ home rehabilitation treatment device using raspberry pi
 It is a rehabilitation device for people with paralyzed hands.  
 We provide some games(using video recognition and tact) and patients __can rehabilitate through games__
 
-## Team Grape!
-+ Our team name is Grape!
-+ We're studying Electronic Engineering, Incheon National University.
+## Grape!
++ my team name is Grape!
++ i'm studying Electronic Engineering, Incheon National University.
 + Team members
   - __Park jun young__: 3rd grade (9851248@gmail.com)
-  - __Lee jong gill__: 2nd grade (parisinus04@hotmail.com)
-  - __Shin na ra__: 1st grade (naracon03@naver.com)
 ***
 
 
